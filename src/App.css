@@ -1,0 +1,40 @@
+.pincode-lookup {
+  padding: 44px;
+}
+
+input {
+  width: 97%;
+  padding: 12px;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+button {
+  padding: 12px 22px;
+  margin: 22px 0px;
+  background-color: black;
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.container {
+  width: 100%;
+
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+
+.box {
+  width: 30%;
+  border: 1px solid;
+  padding: 12px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.error {
+  color: red;
+}
